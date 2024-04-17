@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "es:ESHttp*"
+            ],
+            "Resource": "arn:aws:es:ap-northeast-2:502914478933:domain/skills-logging",
+            "Effect": "Allow"
+        }
+    ]
+}
